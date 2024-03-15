@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e8d0e7; /* Light lavender background */
+}
+
+header {
+  background-color: #d3bdd7; /* Lighter purple for header */
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3f2a5e; /* Dark purple for text */
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #7f5dad; /* Medium purple for links */
+}
+
+main {
+  padding: 20px;
+}
+
+img {
+  max-width: 400px; /* Reduce image width */
+  display: block;
+  margin: 10px auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #d3bdd7; /* Lighter purple border for products */
+  border-radius: 5px; /* Rounded corners for products */
+  background-color: #fff; /* White background for products */
+}
+
+.product h4 {
+  margin-bottom: 5px;
+  color: #3f2a5e; /* Dark purple for product names */
+}
+
+.product p {
+  color: #7f5dad; /* Medium purple for product descriptions */
+}
+
+footer {
+  background-color: #d3bdd7; /* Lighter purple for footer */
+  text-align: center;
+  padding: 10px;
+  color: #3f2a5e; /* Dark purple for footer text */
+}
